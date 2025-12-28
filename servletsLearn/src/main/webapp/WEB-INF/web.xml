@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+ 
+ <servlet>
+  <servlet-name>SayHello</servlet-name>
+  <servlet-class>com.practiceServlet.SayHello</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>SayHello</servlet-name>
+ <url-pattern>/SayHello</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+  <servlet-name>MethodsServlet</servlet-name>
+  <servlet-class>com.practiceServlet.MethodsServlet</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>MethodsServlet</servlet-name>
+ <url-pattern>/MethodsServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+ <servlet>
+ <servlet-name>InputNumbers</servlet-name>
+  <servlet-class>com.practiceServlet.InputNumbers</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>InputNumbers</servlet-name>
+ <url-pattern>/InputNumbers</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+  <servlet-name>AddNumbers</servlet-name>
+  <servlet-class>com.practiceServlet.AddNumbers</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>AddNumbers</servlet-name>
+ <url-pattern>/AddNumbers</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ 
+  <servlet>
+  <servlet-name>MinusNumbers</servlet-name>
+  <servlet-class>com.practiceServlet.MinusNumbers</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>MinusNumbers</servlet-name>
+ <url-pattern>/MinusNumbers</url-pattern>
+ </servlet-mapping>
+ 
+ 
+   <servlet>
+  <servlet-name>LearnCookie</servlet-name>
+  <servlet-class>com.practiceServlet.LearnCookie</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>LearnCookie</servlet-name>
+ <url-pattern>/LearnCookie</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ 
+ 
+</web-app>
